@@ -22,7 +22,7 @@ if(Object.keys(props.daily).length>0){
   labels:lbl,
   datasets: [
     {
-      label: 'Daily',
+      label:(props.waktu)?props.waktu:"Hari ini",
       data:dtst,
       color:"Black",
       fill: false,
